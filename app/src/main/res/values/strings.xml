@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Checkupapp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Nama">Name</string>
+    <string name="email">Email</string>
+    <string name="pw">Password</string>
+    <string name="fb">Facebook</string>
+    <string name="gg">Google</string>
+    <string name="hai">Hello!</string>
+    <string name="User">User</string>
+    <string name="call">Video Call</string>
+    <string name="regist">Are you new user? Register</string>
+    <string name="Create">Create Account</string>
+    <string name="forgot">Forget Password? Come</string>
+    <string name="search">Search</string>
+    <string name="gocheck">Les\'t Go Checkup</string>
+    <string name="to_be_healthy">To be healthy</string>
+    <string name="mesagge">Mesagge</string>
+    <string name="profile_c">Change Photo</string>
+    <string name="setting">Setting</string>
+    <string name="consul">Consul</string>
+    <string name="tips">Tips</string>
+    <string name="notification">Notification</string>
+    <string name="voice_call">Voice Call</string>
+    <string name="change">Change</string>
+    <string name="address">Address</string>
+    <string name="us">US</string>
+    <string name="password_error">Password must be at least 8 characters</string>
+    <string name="emaill">syrl@gmail.com</string>
+    <string name="ckh">CheckUp – Your Friend for\n Better Mental Health!</string>
+    <string name="let_s_go">Let\'s Go</string>
+    <string name="login">Login</string>
+    <string name="password_hint">Masukkan kata sandi Anda</string>
+    <string name="back">Welcome</string>
+</resources>
