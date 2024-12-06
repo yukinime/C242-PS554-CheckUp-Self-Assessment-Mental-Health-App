@@ -10,26 +10,15 @@
 
 <h2>Developed By</h2>
 
-<!-- Bangkit Logo at the top -->
-<div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/yukinime/logo/main/images/bangkit.png" alt="Bangkit Logo" width="400">
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yukinime/logo/main/images/bangkit.png" alt="Bangkit Logo" width="400">
+</p>
 
-<!-- University logos displayed horizontally below -->
-<div style="display: flex; justify-content: center; gap: 50px; padding-top: 20px;">
-    <div>
-        <img src="https://raw.githubusercontent.com/yukinime/logo/main/images/UPN.png" alt="Universitas Brawijaya Logo" width="150">
-        <p><strong>Universitas Brawijaya</strong></p>
-    </div>
-    <div>
-        <img src="https://raw.githubusercontent.com/yukinime/logo/main/images/STTIS.png" alt="Politeknik Negeri Indramayu Logo" width="150">
-        <p><strong>Politeknik Negeri Indramayu</strong></p>
-    </div>
-    <div>
-        <img src="https://raw.githubusercontent.com/yukinime/logo/main/images/UBP.png" alt="Universitas UBP Logo" width="150">
-        <p><strong>Universitas UBP</strong></p>
-    </div>
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yukinime/logo/main/images/UPN.png" alt="Universitas Brawijaya Logo" width="150">
+  <img src="https://raw.githubusercontent.com/yukinime/logo/main/images/STTIS.png" alt="Politeknik Negeri Indramayu Logo" width="150">
+  <img src="https://raw.githubusercontent.com/yukinime/logo/main/images/UBP.png" alt="Universitas UBP Logo" width="150">
+</p>
 
 <h3>Delegate of Universitas Pembangunan Nasional Veteran Jawa Timur</h3>
 <ul>
