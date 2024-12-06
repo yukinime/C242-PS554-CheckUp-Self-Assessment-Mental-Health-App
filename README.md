@@ -42,8 +42,8 @@
     <p>Follow these steps to install and run the API on your local machine:</p>
     <ol>
         <li><strong>Clone the Repository</strong>
-            <pre><code>git clone https://github.com/username/check-up-api.git
-cd check-up-api</code></pre>
+            <pre><code>git clone https://github.com/yukinime/API-model-prediction.git
+cd API-model-prediction</code></pre>
         </li>
         <li><strong>Install Dependencies</strong>
             <p>After cloning the repository, run the following command to install all the required dependencies:</p>
