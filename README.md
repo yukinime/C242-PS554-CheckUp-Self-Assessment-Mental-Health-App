@@ -32,8 +32,8 @@
     <ol>
         <li><strong>Clone Repository</strong>
             <pre>
-git clone https://github.com/username/check-up-api.git
-cd check-up-api
+git clone https://github.com/yukinime/C242-PS554-CheckUp-Self-Assessment-Mental-Health-App.git
+cd C242-PS554-CheckUp-Self-Assessment-Mental-Health-App
             </pre>
         </li>
         <li><strong>Instalasi Dependencies</strong>
