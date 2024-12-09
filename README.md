@@ -1,4 +1,5 @@
 <h1>CheckUp - Self-Assessment Mental Health App</h1>
+<img src="https://raw.githubusercontent.com/yukinime/logo/main/images/CheckUp.png" alt="Universitas Brawijaya Logo">
 
 <p>CheckUp App is a <strong>BANGKIT 2024 Capstone Project</strong>, an innovative mobile application designed to support vulnerable communities through mental health self-assessment tools.</p>
 
