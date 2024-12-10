@@ -103,6 +103,15 @@ PORT=3000</code></pre>
   "error": "The number of answers does not match the expected number of questions (16 answers)."
 }</code></pre>
 
+ <h4>2. <code>GET /questions</code></h4>
+  <p>This endpoint is used to provide question data to users.</p>
+
+   <p><strong>URL</strong>: <code>/questions</code></p>
+    <p><strong>Method</strong>: <code>GET</code></p>
+  <h5>Response (200)</h5>
+    <pre><code>{
+  {"questions":["Apakah Anda merasa sedih atau cemas dalam kehidupan sehari-hari?","Apakah Anda kesulitan tidur atau merasa terlalu banyak tidur?","Apakah Anda merasa tidak ada harapan atau tujuan dalam hidup?","Apakah Anda merasa lelah sepanjang waktu meskipun sudah tidur cukup?","Apakah Anda sering merasa terisolasi atau sendirian?","Apakah Anda merasa kesulitan untuk melakukan aktivitas yang biasanya Anda nikmati?","Apakah Anda merasa putus asa atau tidak berdaya?","Apakah Anda sering merasa gelisah atau cemas?","Apakah Anda merasa sulit untuk berkonsentrasi?","Apakah Anda merasa seperti dunia ini tidak adil terhadap Anda?","Apakah Anda merasa ada yang salah dengan diri Anda atau kehidupan Anda?","Apakah Anda merasa sangat mudah tersinggung atau marah?","Apakah Anda merasa cemas tentang masa depan?","Apakah Anda merasa ingin menarik diri dari orang lain?","Apakah Anda merasa tidak berharga atau tidak berguna?","Apakah Anda sering merasa tidak bersemangat untuk melakukan aktivitas yang biasa Anda nikmati?"]}
+}</code></pre>
   <h2 id="usage-example">Usage Example</h2>
 
   <h3 id="testing-with-postman">Testing with Postman</h3>
