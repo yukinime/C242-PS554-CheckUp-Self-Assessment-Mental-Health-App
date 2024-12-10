@@ -19,6 +19,13 @@
         <pre><code>npm start</code></pre>
         <p>The server will be available at <strong>http://localhost:3000</strong>.</p>
     </ol>
+  <h2>.env.example</h2>
+    <p>Please make sure to add your API key and search engine ID in a <code>.env</code> file. Here is an example of how it should look:</p>
+    <pre><code>
+GOOGLE_API_KEY=AIzaSyAfUNrlb2rMcboaq0-6fgFACvhie4oK47s
+SEARCH_ENGINE_ID=c7dbea4b62add4aa1
+PORT=3000
+    </code></pre>
 
   <h2>Dependencies</h2>
     <p>This project requires the following dependencies:</p>
@@ -151,14 +158,6 @@
         <li>Test the response similarly to Postman.</li>
     </ol>
 
-  <h2>.env.example</h2>
-    <p>Please make sure to add your API key and search engine ID in a <code>.env</code> file. Here is an example of how it should look:</p>
-    <pre><code>
-GOOGLE_API_KEY=AIzaSyAfUNrlb2rMcboaq0-6fgFACvhie4oK47s
-SEARCH_ENGINE_ID=c7dbea4b62add4aa1
-PORT=3000
-    </code></pre>
-    <p>This file should not be committed to GitHub for security reasons. Keep it in your local development environment or use a <code>.gitignore</code> to prevent it from being pushed to a public repository.</p>
 
 </body>
 </html>
