@@ -1,57 +1,274 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_200"
-    tools:context=".IntroActivity">
+    android:background="@drawable/white_background"
+    tools:context=".ui.intro.IntroActivity">
+
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/white_halo" />
+        app:srcCompat="@drawable/top_background1"
+        tools:ignore="ContentDescription" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/imageView6"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/intro_women" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circles"
+        tools:ignore="ContentDescription" />
 
-    <TextView
-        android:id="@+id/textView"
+
+    <!-- Wrapper untuk banner -->
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/bannerMotionLayout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layoutDescription="@xml/activity_main_scene">
+
+
+        <ImageView
+            android:id="@+id/logoMenu1"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/intro_women"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <TextView
+            android:id="@+id/titleMenu1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center_horizontal"
+            android:text="@string/les_t_go_consultation"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/logoMenu1"
+            app:layout_constraintStart_toStartOf="@+id/logoMenu1"
+            app:layout_constraintTop_toBottomOf="@+id/logoMenu1" />
+
+        <TextView
+            android:id="@+id/descMenu1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center_horizontal"
+            android:text="@string/ttl1"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/titleMenu1"
+            app:layout_constraintStart_toStartOf="@+id/titleMenu1"
+            app:layout_constraintTop_toBottomOf="@+id/titleMenu1" />
+
+        <ImageView
+            android:id="@+id/logoMenu2"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:src="@drawable/bipolar_banner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <TextView
+            android:id="@+id/titleMenu2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/logoMenu2"
+            app:layout_constraintStart_toStartOf="@+id/logoMenu2"
+            app:layout_constraintTop_toBottomOf="@+id/logoMenu2"
+            android:text="@string/punya_sakit_mental_ayo_konsultasi" />
+
+        <TextView
+            android:id="@+id/descMenu2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center_horizontal"
+            android:text="@string/ttl2"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/titleMenu2"
+            app:layout_constraintStart_toStartOf="@+id/titleMenu2"
+            app:layout_constraintTop_toBottomOf="@+id/titleMenu2" />
+
+        <ImageView
+            android:id="@+id/logoMenu3"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:src="@drawable/bipolar2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <TextView
+            android:id="@+id/titleMenu3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/logoMenu3"
+            app:layout_constraintStart_toStartOf="@+id/logoMenu3"
+            app:layout_constraintTop_toBottomOf="@+id/logoMenu3"
+            android:text="@string/kesehatan_mental_itu_penting" />
+
+        <TextView
+            android:id="@+id/descMenu3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/titleMenu3"
+            app:layout_constraintStart_toStartOf="@+id/titleMenu3"
+            app:layout_constraintTop_toBottomOf="@+id/titleMenu3"
+            android:text="@string/ttl3" />
+
+        <ImageView
+            android:id="@+id/logoMenu4"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:src="@drawable/women"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <TextView
+            android:id="@+id/titleMenu4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/logoMenu4"
+            app:layout_constraintStart_toStartOf="@+id/logoMenu4"
+            app:layout_constraintTop_toBottomOf="@+id/logoMenu4"
+            android:text="@string/pentingnya_penanganan_kesehatan_mental" />
+
+        <TextView
+            android:id="@+id/descMenu4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/titleMenu4"
+            app:layout_constraintStart_toStartOf="@+id/titleMenu4"
+            app:layout_constraintTop_toBottomOf="@+id/titleMenu4"
+            android:text="@string/ttl4" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/menu1"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginStart="32dp"
+            app:altSrc="@drawable/ic_circle_full_24"
+            app:layout_constraintEnd_toStartOf="@+id/menu2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:srcCompat="@drawable/ic_circle_24"
+            app:tint="@color/blue" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/menu2"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            app:altSrc="@drawable/ic_circle_full_24"
+            app:layout_constraintBottom_toBottomOf="@+id/menu1"
+            app:layout_constraintEnd_toStartOf="@+id/menu3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/menu1"
+            app:layout_constraintTop_toTopOf="@+id/menu1"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_circle_24"
+            app:tint="@color/blue" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/menu3"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            app:altSrc="@drawable/ic_circle_full_24"
+            app:layout_constraintBottom_toBottomOf="@+id/menu2"
+            app:layout_constraintEnd_toStartOf="@+id/menu4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/menu2"
+            app:layout_constraintTop_toTopOf="@+id/menu2"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_circle_24"
+            app:tint="@color/blue" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/menu4"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginEnd="32dp"
+            app:altSrc="@drawable/ic_circle_full_24"
+            app:layout_constraintBottom_toBottomOf="@+id/menu3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/menu3"
+            app:layout_constraintTop_toTopOf="@+id/menu3"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_circle_24"
+            app:tint="@color/blue" />
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="64dp"
-        android:text="@string/ckh"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/navi"
+        android:text="@string/les_t_go_consultation"
+        app:layout_constraintTop_toBottomOf="@+id/bannerMotionLayout"
+        app:layout_constraintEnd_toEndOf="@id/bannerMotionLayout"
+        app:layout_constraintStart_toStartOf="@id/bannerMotionLayout" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_activity"
-        android:layout_width="170dp"
-        android:layout_marginTop="24dp"
-        android:layout_height="60dp"
-        android:background="@drawable/purple_bg"
-        android:textColor="@color/white"
-        android:text="@string/let_s_go"
-        android:textStyle="bold"
-        android:textSize="15sp"
-        android:paddingStart="8dp"
-        android:paddingEnd="16dp"
-        android:drawableEnd="@drawable/white_arrow"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

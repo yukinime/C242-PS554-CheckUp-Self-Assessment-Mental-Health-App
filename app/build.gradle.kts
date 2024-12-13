@@ -1,6 +1,11 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("kotlin-kapt")
+    id("com.google.devtools.ksp")
+    id ("kotlin-parcelize")
+    id("androidx.navigation.safeargs.kotlin")
+
 }
 
 android {
@@ -57,6 +62,16 @@ dependencies {
     implementation(libs.glide)
     implementation(libs.retrofit)
     implementation(libs.lifecycle.runtime.ktx)
+    implementation(libs.androidx.viewpager2)
     implementation(libs.retrofit2.converter.gson)
     implementation(libs.logging.interceptor)
+    implementation(libs.androidx.datastore.preferences)
+    implementation (libs.androidx.recyclerview)
+    implementation (libs.lottie)
+    implementation (libs.room.runtime)
+    implementation (libs.room.ktx)
+    ksp (libs.androidx.room.compiler)
+    implementation (libs.kotlinx.coroutines.android)
+
+
 }

@@ -3,23 +3,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_dashboard">
 
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.aruel.checkupapp.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home">
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.aruel.checkupapp.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_checkup"
+        android:name="com.aruel.checkupapp.ui.checkup.CheckupFragment"
+        android:label="@string/chekup"
+        tools:layout="@layout/fragment_checkup">
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.aruel.checkupapp.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
 </navigation>

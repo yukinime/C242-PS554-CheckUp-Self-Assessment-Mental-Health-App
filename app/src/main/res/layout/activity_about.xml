@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/topp_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_background"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/about_us"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/ppenjelasa"
+            android:textSize="19sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewGroupName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/idd"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewGroupId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/member"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewGroupId2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/member2"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/textViewGroupId3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/member3"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/textViewGroupId4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/member4"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/textViewGroupId5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/member5"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/textViewGroupId6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="  6. M296B4KX4034 - Salsabila Aurellia Zabrina - Universitas Pembangunan Nasional Veteran Jawa Timur- ML- active"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+</ScrollView>
