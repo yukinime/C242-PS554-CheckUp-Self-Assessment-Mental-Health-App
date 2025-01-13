@@ -6,7 +6,7 @@
 <p>The app offers a <strong>Self-Assessment Test</strong>, allowing users to assess their mental health by filling out a questionnaire or survey. This helps users understand their mental state based on various factors such as mood, stress levels, and overall mental well-being.</p>
 
 <p>CheckUp App is powered by <strong>Mobile Development</strong>, <strong>Cloud Computing</strong>, and <strong>Machine Learning</strong> technologies to deliver a seamless, reliable, and intelligent user experience.</p>
-<strong>Video Presentasi Project</strong> <p> https://www.youtube.com/watch?v=dONrNmozgvo&t=8s </p>
+<strong>Project Presentation Video</strong> <p> https://www.youtube.com/watch?v=dONrNmozgvo&t=8s </p>
 <hr>
 
 <h2>Developed By</h2>
